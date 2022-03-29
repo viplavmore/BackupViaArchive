@@ -1,0 +1,6 @@
+---
+- name: Take backup
+  archive:
+    path: /etc/apt/*
+    dest: /opt/{{ ansible_date_time.date }}.tar.gz
+#    format: gz
