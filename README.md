@@ -2,4 +2,4 @@
 This Ansible script is used to take backup via tar command.
 In this script, while creating backup I used system date and time to rename the backup file, but you can change it to as per your expectation.
 
-** NOTE: While creating Ansible Directory Structure, use this command : "#ansible-galaxy init rolename" **
+** NOTE: While creating Ansible Directory Structure, use this command : **"#ansible-galaxy init rolename"** **
