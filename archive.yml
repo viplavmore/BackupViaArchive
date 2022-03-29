@@ -1,0 +1,4 @@
+---
+- hosts: self
+  roles:
+    - role: archive
